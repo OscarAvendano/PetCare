@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="220dp"
+    android:viewportWidth="320"
+    android:viewportHeight="220">
+
+    <!-- Fondo de habitación -->
+    <path
+        android:fillColor="#FAF7F2"
+        android:pathData="M0,0 L320,0 L320,220 L0,220 Z" />
+
+    <!-- Círculo melocotón en pared -->
+    <path
+        android:fillColor="#FFD1C1"
+        android:pathData="M100,60 A36,36 0 1,1 100,59.9 Z" />
+
+    <!-- Arco de lavanda -->
+    <path
+        android:fillColor="#E1E0F5"
+        android:pathData="M70,120 A40,40 0 0,1 150,120 Z" />
+
+    <!-- Arco rosado -->
+    <path
+        android:fillColor="#F7D1C9"
+        android:pathData="M180,125 A25,25 0 0,1 230,125 Z" />
+
+    <!-- Línea decorativa -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#585992"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M80,65 C110,25 140,68 165,40" />
+
+    <!-- Círculo naranja -->
+    <path
+        android:fillColor="#E59A72"
+        android:pathData="M235,48 A12,12 0 1,1 235,47.9 Z" />
+
+    <!-- Mostrador de recepción VET -->
+    <path
+        android:fillColor="#F3F3FA"
+        android:pathData="M250,55 L320,55 L320,175 L250,175 Z" />
+
+    <path
+        android:fillColor="#0F0E47"
+        android:pathData="M265,70 L305,70 L305,88 L265,88 Z" />
+
+    <!-- Planta en maceta -->
+    <path
+        android:fillColor="#585992"
+        android:pathData="M25,58 L57,58 L57,135 L25,135 Z" />
+
+    <path
+        android:fillColor="#8686AC"
+        android:pathData="M41,48 A18,18 0 1,1 41,47.9 Z" />
+
+    <!-- Patas del banco -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M75,135 L85,135 L85,190 L75,190 Z" />
+
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M215,135 L225,135 L225,190 L215,190 Z" />
+
+    <!-- Asiento del banco -->
+    <path
+        android:fillColor="#E2B07E"
+        android:pathData="M58,114 L242,114 C246,114 250,118 250,122 L250,136 C250,140 246,144 242,144 L58,144 C54,144 50,140 50,136 L50,122 C50,118 54,114 58,114 Z" />
+
+    <path
+        android:fillColor="#C79261"
+        android:pathData="M50,138 L250,138 L250,144 L50,144 Z" />
+
+    <!-- PERRO (Golden Retriever) -->
+    <!-- Cuerpo -->
+    <path
+        android:fillColor="#F7C873"
+        android:pathData="M95,70 C95,55 160,55 160,70 L160,114 L95,114 Z" />
+
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#F7C873"
+        android:pathData="M128,58 A32,32 0 1,1 128,57.9 Z" />
+
+    <!-- Orejas -->
+    <path
+        android:fillColor="#D99B38"
+        android:pathData="M88,40 C88,25 106,30 106,58 C88,58 88,45 88,40 Z" />
+
+    <path
+        android:fillColor="#D99B38"
+        android:pathData="M168,40 C168,25 150,30 150,58 C168,58 168,45 168,40 Z" />
+
+    <!-- Hocico -->
+    <path
+        android:fillColor="#FFF0D0"
+        android:pathData="M110,60 C110,48 146,48 146,60 C146,72 110,72 110,60 Z" />
+
+    <!-- Nariz -->
+    <path
+        android:fillColor="#4A2E16"
+        android:pathData="M121,55 C121,50 135,50 135,55 C135,60 121,60 121,55 Z" />
+
+    <!-- Lengua -->
+    <path
+        android:fillColor="#FF7A8A"
+        android:pathData="M122,64 C122,64 128,74 134,64 Z" />
+
+    <!-- GATO (Gato rosado/coral) -->
+    <!-- Cuerpo -->
+    <path
+        android:fillColor="#EDA597"
+        android:pathData="M178,76 C178,65 224,65 224,76 L224,114 L178,114 Z" />
+
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#EDA597"
+        android:pathData="M201,64 A24,24 0 1,1 201,63.9 Z" />
+
+    <!-- Orejas de gato -->
+    <path
+        android:fillColor="#EDA597"
+        android:pathData="M178,48 L188,28 L198,42 Z" />
+
+    <path
+        android:fillColor="#EDA597"
+        android:pathData="M204,42 L214,28 L224,48 Z" />
+
+    <!-- Ojos de gato -->
+    <path
+        android:fillColor="#332211"
+        android:pathData="M192,62 A2.5,2.5 0 1,1 192,61.9 Z" />
+
+    <path
+        android:fillColor="#332211"
+        android:pathData="M210,62 A2.5,2.5 0 1,1 210,61.9 Z" />
+
+    <!-- Nariz gato -->
+    <path
+        android:fillColor="#D67265"
+        android:pathData="M201,67 A3,3 0 1,1 201,66.9 Z" />
+
+    <!-- Borde inferior -->
+    <path
+        android:fillColor="#D3D3E8"
+        android:pathData="M0,212 L320,212 L320,220 L0,220 Z" />
+
+</vector>
