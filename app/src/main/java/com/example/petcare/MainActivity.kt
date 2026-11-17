@@ -57,7 +57,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.tvRegister.setOnClickListener {
-            registerUser()
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
         }
 
         binding.tvForgotPassword.setOnClickListener {
@@ -93,7 +94,8 @@ class MainActivity : AppCompatActivity() {
         setContent {
             WelcomeScreen(
                 onCreateAccountClick = {
-                    showLoginScreen()
+                    val intent = Intent(this, RegisterActivity::class.java)
+                    startActivity(intent)
                 },
                 onLoginClick = {
                     showLoginScreen()
