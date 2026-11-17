@@ -264,37 +264,6 @@ servidor. Aun así, es importante configurar restricciones de API cuando
 corresponda y proteger la información mediante reglas de Firestore. No
 se deben subir al repositorio claves privadas, tokens ni credenciales de
 cuentas de servicio.
-Evidencias del proyecto
-Quiero utilizar esta sección para mostrar cómo se ve PetCare y dejar
-evidencia de los módulos que he desarrollado.
-
-Para mantener las capturas organizadas, recomiendo guardarlas dentro de
-docs/evidencias/ con nombres como estos:
-docs/
-└── evidencias/
-    ├── 01-bienvenida.png
-    ├── 02-inicio-sesion.png
-    ├── 03-registro-mascota.png
-    ├── 04-mis-mascotas.png
-    ├── 05-perfil-mascota.png
-    ├── 06-agenda.png
-    ├── 07-crear-recordatorio.png
-    └── 08-repositorio-github.png
-Cuando las imágenes estén guardadas y subidas a GitHub, se podrán
-visualizar directamente desde este documento:
-Pantalla de bienvenida
-
-Inicio de sesión
-
-Registro de mascota
-
-Mis mascotas
-
-Perfil de mascota
-
-Agenda
-
-Crear recordatorio
 
 Presentación del proyecto: PetCare en
 Canva
