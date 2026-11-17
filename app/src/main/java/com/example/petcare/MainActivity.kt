@@ -1,5 +1,6 @@
 package com.example.petcare
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import android.view.View
@@ -60,7 +61,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.tvForgotPassword.setOnClickListener {
-            resetPassword()
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
         }
 
         binding.btnTogglePassword.setOnClickListener {
@@ -134,7 +136,9 @@ class MainActivity : AppCompatActivity() {
                         Toast.LENGTH_LONG
                     ).show()
 
-                    // Próximo paso: abrir DashboardActivity
+                    val intent = Intent(this, DashboardActivity::class.java)
+                    startActivity(intent)
+                    finish()
 
                 } else {
 
@@ -175,6 +179,10 @@ class MainActivity : AppCompatActivity() {
                         "Cuenta creada correctamente",
                         Toast.LENGTH_LONG
                     ).show()
+
+                    val intent = Intent(this, DashboardActivity::class.java)
+                    startActivity(intent)
+                    finish()
 
                 } else {
 
